@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: Oswald, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+:root {
+  --main-black: rgb(0, 0, 0);
+  --main-blue: rgb(0, 87, 255);
+  --main-orange: #ffa332;
+  --main-purple: #b861ff;
+  --second-purple: #ff8e32;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 7.5rem;
+}
+
+.btn {
+  background-color: var(--main-blue);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(0, 87, 255, 0.8);
+}
+
+.main-row {
+  display: flex;
+}
+
+.main-row > * {
+  flex: 1 1 100%;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
