@@ -161,6 +161,9 @@ section {
 /* About section */
 
 /* form section */
+#form {
+  margin-bottom: 245px !important;
+}
 .form_content_left {
   margin-top: 30px;
   /* flex: 2 1 100%; */
@@ -189,4 +192,149 @@ section {
   align-items: center;
   gap: 30px;
 }
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 8px 28px rgba(83, 83, 83, 0.15);
+  border-radius: 15px;
+  max-width: 540px;
+}
+
+.card_header img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card_body {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.card_body p {
+  margin-bottom: 20px;
+}
+.card_body h2 {
+  margin-bottom: 26px;
+  font-size: 29px;
+  line-height: 40px;
+}
+
+.card_body .main-row {
+  gap: 10px;
+}
+
+.card_body input,
+textarea {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 25px;
+  outline: none;
+  background: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  color: var(--main-black);
+  border-radius: 6px;
+  padding: 10px 15px;
+  resize: none;
+}
+
+.card_body textarea {
+  height: 140px;
+}
+
+.card_body button {
+  width: 100%;
+  margin-bottom: 20px;
+}
 /* form section */
+
+/* Faq section  */
+
+.faq_left_content .faq_title {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.faq_left_content p {
+  font-size: 15px;
+  line-height: 26px;
+  font-family: Roboto;
+  color: var(--main-black);
+  font-weight: 600;
+  margin-bottom: 58px;
+}
+
+.faq_container {
+  border: 1px solid #e7e7e7;
+}
+
+.faq_wrapper {
+  padding: 1.938rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq_wrapper h2 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+/* Faq section  */
+
+/* Pricing section */
+.pricing_left_content div {
+  max-width: 540px;
+}
+.pricing_left_content h2 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--main-black);
+  margin-bottom: 20px;
+}
+.pricing_left_content p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--main-black);
+  margin-bottom: 20px;
+}
+
+.progress_wrapper {
+  width: 100%;
+}
+
+.progress_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress_bar {
+  width: 100%;
+  height: 4px;
+  background: #ebebeb;
+  border-radius: 100px;
+}
+
+.bar_blue.progress::-webkit-progress-value {
+  background-color: var(--main-blue);
+}
+
+.pricing_right_content ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.pricing_right_content button {
+  width: auto;
+}
+/* Pricing section */
