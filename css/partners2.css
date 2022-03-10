@@ -1,0 +1,29 @@
+.partners2_images_container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 52px;
+}
+.partners2_images_container > * {
+  flex: 1 1 100%;
+}
+/* Partners 2 */
+
+@media all and (max-width: 800px) {
+  .partners2_images_container {
+    flex-wrap: wrap;
+  }
+
+  .partners2_images_container > * {
+    flex: 1 1 25%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1205px) {
+  .partners2_images_container {
+    flex-wrap: wrap;
+  }
+
+  .partners2_images_container > * {
+    flex: 1 1 25%;
+  }
+}

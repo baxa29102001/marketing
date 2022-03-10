@@ -1,0 +1,82 @@
+footer {
+  background-color: var(--main-black);
+  padding: 50px 0;
+}
+.footer_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+}
+.footer_navigation ul {
+  display: flex;
+  padding: 10px 15px;
+  list-style: none;
+}
+.footer_navigation ul li {
+  margin: 5px 10px;
+}
+.footer_navigation ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social_share h2 {
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.social_share h2 span {
+  color: white;
+}
+.social_share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_share_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.share_body {
+  border-radius: 100%;
+  border: 1px solid rgba(240, 242, 250, 0.33);
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.fa-brands {
+  color: #fff;
+}
+.fa-facebook-f {
+  font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+  .footer_navigation {
+    flex-wrap: wrap;
+  }
+  .footer_navigation ul {
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .footer_navigation img {
+    margin: 0 10px;
+  }
+  .social_share {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1205px) {
+  .partners2_images_container {
+    flex-wrap: wrap;
+  }
+
+  .partners2_images_container > * {
+    flex: 1 1 25%;
+  }
+}

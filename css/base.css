@@ -23,6 +23,9 @@ html {
   --second-purple: #ff8e32;
 }
 
+hr {
+  border: 1px solid #e7e7e7;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -61,12 +64,32 @@ html {
   border-top: 100px solid red;
 }
 
+.scroll_element {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.scroll_element.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.btn_aniamtion {
+  animation: rubberBand;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
 @media all and (max-width: 800px) {
   .main-row {
     flex-wrap: wrap;
   }
 
   .container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
+  /* img {
+    width: 100%;
+  } */
 }

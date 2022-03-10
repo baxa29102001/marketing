@@ -1,0 +1,63 @@
+.home_content_left h1 {
+  font-size: 56px;
+  line-height: 66px;
+  color: var(--main-black);
+  margin-bottom: 56px;
+  margin-top: 50px;
+}
+.home_content_left p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--main-black);
+  margin-bottom: 20px;
+}
+
+.avatar__content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.avatar__content h2 {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-black);
+  font-weight: 400;
+}
+.fa-solid {
+  color: rgb(255, 187, 0);
+}
+
+.home_content_left button {
+  background-color: var(--main-orange);
+}
+
+.home_content_right {
+  position: relative;
+}
+.home_content_right .second__image {
+  position: absolute;
+  right: -76px;
+  bottom: 61px;
+}
+
+@media all and (max-width: 800px) {
+  .first__image {
+    width: 100%;
+  }
+  .home_content_right .second__image {
+    width: 50%;
+    bottom: 30px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1300px) {
+  .first__image {
+    width: 100%;
+  }
+  .home_content_right .second__image {
+    width: 50%;
+    top: 35%;
+  }
+}
